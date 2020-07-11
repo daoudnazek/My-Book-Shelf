@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Shelf</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Book Shelf</h1>
+    </header>
+    <main>
+        <div id="container">
+            <div id="form">
+                <form id="formSubmit" action="submit">
+                    <fieldset>
+                        <label for="bookName">Book Name</label><br>
+                        <input id="bookName" type="text"><br>
+                        <label for="numberOfPages">Number Of Pages</label><br>
+                        <input id="numberOfPages" type="text"><br>
+                        <label for="catogery">Category</label><br>
+                        <select id="catogery">
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Science">Science</option>
+                            <option value="Fiction">Fiction</option>
+                            <option value="History">History</option>
+                            <option value="Science">Science</option>
+                        </select><br>
+                        <input type="submit">
+                    </fieldset>
+                </form>
+            </div>
+            <div id="table">
+                <table id="tableOfBooks"></table>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

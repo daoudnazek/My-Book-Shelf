@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #F5F5DC;
+    color: #320D6D;
+    margin-top: 0px;
+}
+
+
+main {
+    background-image: url('../img/background.jpg') ;
+    height: 500px;
+}
+
+#form {
+    float: left;
+    background-color: rgb(50, 13, 109,.8);
+}
+
+#table {
+    background-color: rgb(50, 13, 109,.8);
+    width: 600px;
+}
+
+form{
+    color: white;
+}
+
+table,th,tr,td{
+    border: 2px solid #320D6D;
+    border-radius: 2px;
+    border-collapse: collapse;
+    background-color:#F5F5DC ;
+    color: #320D6D;
+}
+
+
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
